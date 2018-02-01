@@ -162,6 +162,7 @@ public class XlsParser {
                 pst.executeUpdate();
             }
         }
+        con.close();
     }
 
     private void parseAbbreviation(String[] entry, String text) {
